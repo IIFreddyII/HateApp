@@ -6,6 +6,9 @@ import { PanelComponent } from './panel.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { AnalysisComponent } from './pages/analysis/analysis.component';
+import { AnalysisRoutingModule } from './pages/analysis/analysis-routing.module';
 
 
 @NgModule({
@@ -13,7 +16,8 @@ import { AboutComponent } from './pages/about/about.component';
     PanelComponent,
     MenuComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,

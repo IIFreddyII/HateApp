@@ -1,0 +1,14 @@
+img {
+    border-radius: 50%;
+  }
+  #contenido {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  #texto {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
