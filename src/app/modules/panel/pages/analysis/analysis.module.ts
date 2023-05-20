@@ -9,12 +9,14 @@ import { AnalysisComponent } from './analysis.component';
 import { RouterModule } from '@angular/router';
 
 
+
 @NgModule({
   declarations: [
     AnalysisComponent,
     FeelingsComponent,
     GenderComponent,
-    WordsComponent
+    WordsComponent,
+    
   ],
   imports: [
     CommonModule,

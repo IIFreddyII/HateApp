@@ -12,7 +12,8 @@ const routes: Routes = [
         path: 'feeling', component: FeelingsComponent 
       },
       {
-        path: 'gender', component: GenderComponent
+        path: 'gender', component: GenderComponent,
+        loadChildren: () => import('./components/gender/gender.module').then(m => m.GenderModule)
       },
       {
         path: 'word', component: WordsComponent 
