@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { FeelingsComponent } from './components/feelings/feelings.component';
 import { GenderComponent } from './components/gender/gender.component';
 import { WordsComponent } from './components/words/words.component';
+import { ResultComponent } from './components/result/result.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,9 @@ const routes: Routes = [
       },
       {
         path: 'word', component: WordsComponent 
+      },
+      {
+        path: 'result', component: ResultComponent 
       },
       {
         path: '**', redirectTo: 'feeling'

@@ -7,6 +7,7 @@ import { GenderComponent } from './components/gender/gender.component';
 import { WordsComponent } from './components/words/words.component';
 import { AnalysisComponent } from './analysis.component';
 import { RouterModule } from '@angular/router';
+import { ResultComponent } from './components/result/result.component';
 
 
 
@@ -16,6 +17,7 @@ import { RouterModule } from '@angular/router';
     FeelingsComponent,
     GenderComponent,
     WordsComponent,
+    ResultComponent,
     
   ],
   imports: [
