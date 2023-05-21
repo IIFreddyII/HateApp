@@ -13,11 +13,11 @@ const routes: Routes = [
         path: 'feeling', component: FeelingsComponent 
       },
       {
-        path: 'gender', component: GenderComponent,
+        path: 'algorithm', component: GenderComponent,
         loadChildren: () => import('./components/gender/gender.module').then(m => m.GenderModule)
       },
       {
-        path: 'word', component: WordsComponent 
+        path: 'wordcloud', component: WordsComponent 
       },
       {
         path: 'result', component: ResultComponent 
