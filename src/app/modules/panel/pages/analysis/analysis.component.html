@@ -1,20 +1,76 @@
 <div class="container text-center">
-  <br>
-  <h1 style="color: rgb(0, 0, 0)">Analisis de sentimientos en Twitter</h1>
-  <br>
-    <ul class="nav nav-tabs" id="myTab" role="tablist" style="font-weight: bold;">
-      <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true" routerLink="feeling">Sentimiento</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false" routerLink="gender">Algoritmos</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false" routerLink="result">Resultados</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false" routerLink="word">WordCloud</button>
-      </li>
-    </ul>
-    <router-outlet></router-outlet>    
+  <br />
+  <h1 style="color: rgb(255, 255, 255)">
+    <img
+      src="https://media2.giphy.com/media/N7sG50flbD9pS/giphy.gif?cid=ecf05e47ymufltw9hmygzwvn3vfh9gegcscazccpb237d5u8&ep=v1_stickers_search&rid=giphy.gif&ct=s"
+      alt=""
+      class="img-fluid"
+      width="80"
+    />
+    Analisis de sentimientos en Twitter
+  </h1>
+  <br />
+  <ul class="nav nav-tabs" id="myTab" role="tablist" style="font-weight: bold">
+    <li class="nav-item" role="presentation">
+      <button
+        class="nav-link active"
+        id="home-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#home-tab-pane"
+        type="button"
+        role="tab"
+        aria-controls="home-tab-pane"
+        aria-selected="true"
+        routerLink="feeling"
+      >
+        Sentimiento
+      </button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button
+        class="nav-link"
+        id="profile-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#profile-tab-pane"
+        type="button"
+        role="tab"
+        aria-controls="profile-tab-pane"
+        aria-selected="false"
+        routerLink="gender"
+      >
+        Algoritmos
+      </button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button
+        class="nav-link"
+        id="contact-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#contact-tab-pane"
+        type="button"
+        role="tab"
+        aria-controls="contact-tab-pane"
+        aria-selected="false"
+        routerLink="result"
+      >
+        Resultados
+      </button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button
+        class="nav-link"
+        id="contact-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#contact-tab-pane"
+        type="button"
+        role="tab"
+        aria-controls="contact-tab-pane"
+        aria-selected="false"
+        routerLink="word"
+      >
+        WordCloud
+      </button>
+    </li>
+  </ul>
+  <router-outlet></router-outlet>
 </div>
